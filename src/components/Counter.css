@@ -1,0 +1,56 @@
+.counter {
+  width: 260px;
+  background: #0f0f0f;
+  padding: 30px 20px;
+  border-radius: 16px;
+  text-align: center;
+  margin: 30px auto;
+  box-shadow: 0 0 25px rgba(0, 191, 255, 0.6);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Count number */
+.counter div {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Common button styles */
+.counter button {
+  background: #00bfff;
+  color: #000;
+  border: none;
+  padding: 10px 18px;
+  margin: 6px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+/* Hover effect */
+.counter button:hover {
+  background: #009acd;
+  transform: translateY(-2px);
+}
+
+/* Active (click) effect */
+.counter button:active {
+  transform: scale(0.95);
+}
+
+/* Optional: different colors */
+.counter button:nth-child(2) {
+  background: #00e5ff; /* Increase */
+}
+
+.counter button:nth-child(3) {
+  background: #ff6b6b; /* Decrease */
+}
+
+.counter button:nth-child(4) {
+  background: #ffd93d; /* Reset */
+}
